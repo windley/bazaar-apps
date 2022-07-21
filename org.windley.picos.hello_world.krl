@@ -11,7 +11,7 @@ ruleset org.windley.picos.hello_world {
       html:header("manage hello","",null,null,_headers)
       + <<
 <h1>Manage hello</h1>
-<p>This is my page in my Byname pico</p>
+<p>Hello #{ent:name}! This is my page in my Byname pico</p>
 >>
       + html:footer()
     }
